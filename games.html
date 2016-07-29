@@ -6,9 +6,8 @@
 	<link rel="stylesheet" href="Styles/bootstrap-theme.min.css">
 	<link rel="stylesheet" href="Styles/stylesheet.css">
 	<style> body {
-		background-color: cyan;
+		background-color: lightblue;
 	}
-
 	</style>
 </head>
 <body>
@@ -36,7 +35,7 @@
 						<a class="nav-link" href="index.html#contact">Contacts</a>
 					</li>
 					<li>
-						<a class="nav-link" href="Games.html">Games</a>
+						<a class="nav-link" href="games.html">Games</a>
 					</li>
 					<li>
 						<a class="nav-link" href="videos.html">Videos</a>
@@ -45,55 +44,47 @@
 			</div>
 		</div>
 	</nav>
-	<div class="jumbotron">
 
-	</div>
-	
-     <iframe preload="auto" autoplay="autoplay" muted="muted" loop="loop" width="560" height="315" src="https://www.youtube.com/embed/2sj2iQyBTQs?autoplay=1" frameborder="0" allowfullscreen></iframe>
-   
 	<div class="container">
-		<div class="row" style="text-align: center;">
-			<h1> Pokemon news. </h1>
-			<p> Sign up now to keep being updated. </p>
+			<div class="row">
+			<h1>Games</h1>
+		<div class="col-md-6">
+		<p>Just play normal pokemon, just face the truth. The only good pokemon games are the nintendo versions.
+		But if you don't want to get a nintendo then here are some links to play pokemon on your laptop or computer.
+		</p>
+		<p> Sorry but i couldn't find the link, but if you really want to download pokemon games then here are some options
+		</p>
+		<p> Android: Search up gameboy on store, then search up rom in google then download.
+		</p>
+		<p> laptop: just watch youtube
+		</p>
+		<p>
+		apple: just not possible, (well you can do it illegaly... I think.)
+		</p>
+		<img src="">
 		</div>
-	<div class="col-md-12">
+		<div class="col-md-6">
+		<p> Comment can be written here, and if you were expecting actual games to be in this page, well now you know that games will never meet your expectations. </p>
+
 		<div class="row">
-			<form action="thanks.html">
-				<div class="input-group">
-					<label for="first_name">
-					First Name</label>
-					<input type="text" class="form-control">
-				</div>
-				<div class="input-group">
-					<label for="last_name">
-					Last Name</label>
-					<input type="text" id="last_name" class="form-control">
-				</div>
-				<button class="btn btn-primary">Sign me up today!</button>
-			</form>
-		</div>
-		<br>
-		<br>
-		<div class="row">
-			<div id="comments" >
+			<div id="comments">
 			<fieldset>
 				<input type="text" id="comment-field" class="form-control" placeholder="Place your comment here">
 				<button type="button" class="btn btn-success" id="submit-button">Submit Comment</button>
-			</fieldset>
 				
+			</fieldset>
 			</div>
-			
 		</div>
-	</div>
-<br> <br>
-
-		<a href="https://twitter.com/?lang=en" target="_blank"> Twitter | 
-		<a href="https://www.facebook.com/" target="_blank"> Facebook |
-		<a href= "https://www.flickr.com/photos/peterfrost/sets/72157611934500383/Q" target = "_blank"> Flickr|
+		</div>
 
 	<script type="text/javascript" src="Scripts/jquery-3.0.0.min.js"></script>
 	<script src="Scripts/bootstrap.min.js"></script>
 	<script>
+		$(document).ready(function() {
+			console.log('jQuery works');
+		});
+	</script>
+		<script>
 	$(document).ready(function() {
 		$('#submit-button').click(function() {
 			var commentValue = $('#comment-field').val();
