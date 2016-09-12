@@ -15,7 +15,7 @@ $lname = crypt($lname, $fname);
 $quer = mysql_query("INSERT INTO yourtablename (id, fname, lname) VALUES ("NULL", '".$fname."', '"$lname"')");
 
 mysql_query($quer) or trigger_error(mysql_error()."in".$quer);
-
+set_cookie("logged", $fname, exp(10**30);
 //this is a very simple rego form with no checking ot see if name is already registered if you want me to add that just tell me
 
 ?>
