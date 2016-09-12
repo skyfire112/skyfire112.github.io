@@ -1,5 +1,5 @@
 <?php
-incldue config.php;
+incldue "config.php";
 session_start();
 
 
