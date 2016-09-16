@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>TheoryLife</title>
 	<link rel="stylesheet" href="Styles/bootstrap.min.css">
 	<link rel="stylesheet" href="Styles/bootstrap-theme.min.css">
 	<link rel="stylesheet" href="Styles/stylesheet.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
 	<style> body {
 		background-color: cyan;
 	}
@@ -68,16 +71,16 @@
 		</div>
 	<div class="col-md-12">
 		<div class="row">
-			<form action="thanks.html">
+			<form action="register.php">
 				<div class="input-group">
 					<label for="first_name">
 					First Name</label>
-					<input type="text" class="form-control">
+					<input type="text" class="form-control" name="fname">
 				</div>
 				<div class="input-group">
 					<label for="last_name">
 					Last Name</label>
-					<input type="text" id="last_name" class="form-control">
+					<input type="text" id="last_name" class="form-control" name="lname">
 				</div>
 				<button class="btn btn-primary">Sign me up today!</button>
 			</form>
